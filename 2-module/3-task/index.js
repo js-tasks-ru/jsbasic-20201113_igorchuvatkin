@@ -1,5 +1,14 @@
 let calculator = {
-  // ваш код
+  read (a, b){
+    calculator.first = a;
+    calculator.two = b;
+  },
+  sum (){
+    return ( this.first + this.two )
+  },
+  mul (){
+    return ( this.first * this.two )
+  }
 };
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
