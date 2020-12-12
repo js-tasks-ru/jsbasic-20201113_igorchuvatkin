@@ -9,9 +9,11 @@ let masha = { name: 'Маша', age: 28 };
 
 let users = [ vasya, petya, masha ];
   function namify(users) {
-    return name = users.map(function (elem){
+    let result = []
+    return result = users.map(function (elem){
       return elem.name
     }
     )
   };
   let names = namify(users);
+  console.log(names)
